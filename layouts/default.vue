@@ -1,9 +1,13 @@
 <template>
   <div class="bg-[#FAFAFA]">
-    <div class="flex flex-col mx-80 bg-white min-h-screen shadow-md px-24">
-      <AppHeader />
-      <slot />
-      <AppFooter />
+    <div class="flex justify-center">
+      <div
+        class="flex flex-col max-w-[1080px] w-full bg-white min-h-screen shadow-md px-24"
+      >
+        <AppHeader />
+        <slot />
+        <AppFooter />
+      </div>
     </div>
   </div>
 </template>
