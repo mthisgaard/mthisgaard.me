@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-	title: 'Skills | Malene Thisgaard',
+  title: 'Skills | Malene Thisgaard',
 })
 </script>
 
