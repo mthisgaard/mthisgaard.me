@@ -28,7 +28,6 @@ module.exports = {
   plugins: ["@typescript-eslint", "vue"],
   rules: {
     indent: ["error", "tab"],
-    "linebreak-style": ["error", "unix"],
     quotes: ["error", "single"],
     semi: ["error", "never"],
     "vue/multi-word-component-names": "off",
