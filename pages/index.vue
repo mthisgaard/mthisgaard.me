@@ -1,8 +1,5 @@
 <template>
-  <div class="flex gap-16">
-    <div>
-      <img class="rounded-xl" src="~/assets/images/avatar.jpg" alt="Malene" />
-    </div>
+  <div class="flex gap-12">
     <div>
       <h1 class="mb-6 text-4xl font-bold">Hi there, I'm Malene</h1>
       <div>
@@ -37,6 +34,12 @@
         </a>
       </div>
     </div>
-    <LangSwitcher />
+    <div>
+      <img
+        class="rounded-xl max-w-[400px]"
+        src="~/assets/images/avatar.jpg"
+        alt="Malene"
+      />
+    </div>
   </div>
 </template>
