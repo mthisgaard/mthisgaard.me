@@ -31,6 +31,7 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "single"],
     semi: ["error", "never"],
+    "vue/multi-word-component-names": "off",
   },
   globals: {
     useHead: "readonly",
