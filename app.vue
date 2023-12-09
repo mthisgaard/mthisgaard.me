@@ -21,6 +21,6 @@ useSeoMeta({
 
 <template>
   <NuxtLayout>
-    <NuxtPage />
+    <NuxtPage class="h-full" />
   </NuxtLayout>
 </template>

@@ -1,16 +1,16 @@
 <template>
-  <header class="my-8 flex justify-between">
-    <NuxtLink to="/"> Malene Thisgaard </NuxtLink>
+  <header class="flex justify-between mt-8 mb-16">
+    <NuxtLink class="text-2xl font-bold" to="/"> MT </NuxtLink>
     <nav>
       <ul class="flex gap-4">
         <li>
           <NuxtLink to="/about"> About </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/projects"> Projects </NuxtLink>
+          <NuxtLink to="/skills"> Skills </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/skills"> Skills </NuxtLink>
+          <NuxtLink to="/projects"> Projects </NuxtLink>
         </li>
       </ul>
     </nav>
