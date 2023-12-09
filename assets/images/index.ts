@@ -24,6 +24,8 @@ import cloudflare from './cloudflare.png'
 import cypress from './cypress.png'
 import sanity from './sanity.png'
 import nuxt from './nuxtjs.png'
+import japanrabbitcom from './japanrabbitcom.png'
+import japanrabbitlogo from './japanrabbitlogo.png'
 
 export {
   jobjob,
@@ -52,4 +54,6 @@ export {
   cypress,
   sanity,
   nuxt,
+  japanrabbitcom,
+  japanrabbitlogo,
 }
