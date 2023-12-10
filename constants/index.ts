@@ -3,123 +3,58 @@ import {
   beyond,
   oshare,
   millionplants,
-  tailwind,
-  typescript,
-  vue,
-  nextjs,
-  react,
-  ruby,
-  rails,
-  nodejs,
-  postgresql,
-  graphql,
-  git,
-  github,
-  heroku,
-  figma,
   japanblog,
-  gcp,
-  python,
-  robotframework,
-  cloudflare,
-  cypress,
-  sanity,
-  nuxt,
   japanrabbitcom,
   japanrabbitlogo,
 } from '../assets/images'
 
-export const skills = [
+export const skillTypes = [
   {
-    title: 'TypeScript',
-    icon: typescript,
+    title: 'Frontend',
+    skills: [
+      'HTML',
+      'CSS/SCSS',
+      'TypeScript',
+      'Vue',
+      'Nuxt',
+      'Tailwind',
+      'React',
+      'Next',
+      'Figma',
+    ],
   },
   {
-    title: 'Node',
-    icon: nodejs,
+    title: 'Backend',
+    skills: [
+      'Node',
+      'postgreSQL',
+      'GraphQL',
+      'Hasrura',
+      'Robot Framework',
+      'Python',
+      'Sanity',
+      'Ruby',
+      'Rails',
+    ],
   },
   {
-    title: 'Vue',
-    icon: vue,
+    title: 'DevOps',
+    skills: ['git', 'GitHub', 'Cloudflare', 'Heroku', 'GCP'],
   },
   {
-    title: 'Nuxt',
-    icon: nuxt,
+    title: 'Testing',
+    skills: ['Cypress', 'Jest'],
   },
   {
-    title: 'Tailwind',
-    icon: tailwind,
-  },
-  {
-    title: 'postgreSQL',
-    icon: postgresql,
-  },
-  {
-    title: 'GraphQL',
-    icon: graphql,
-  },
-  {
-    title: 'GCP',
-    icon: gcp,
-  },
-  {
-    title: 'Python',
-    icon: python,
-  },
-  {
-    title: 'Cypress',
-    icon: cypress,
-  },
-  {
-    title: 'React',
-    icon: react,
-  },
-  {
-    title: 'Next',
-    icon: nextjs,
-  },
-  {
-    title: 'Ruby',
-    icon: ruby,
-  },
-  {
-    title: 'Rails',
-    icon: rails,
-  },
-  {
-    title: 'git',
-    icon: git,
-  },
-  {
-    title: 'GitHub',
-    icon: github,
-  },
-  {
-    title: 'Cloudflare',
-    icon: cloudflare,
-  },
-  {
-    title: 'Heroku',
-    icon: heroku,
-  },
-  {
-    title: 'Figma',
-    icon: figma,
-  },
-  {
-    title: 'Sanity',
-    icon: sanity,
-  },
-  {
-    title: 'Robot Framework',
-    icon: robotframework,
+    title: 'Soft Skills',
+    skills: ['Project Management', 'ShapeUp', 'Data Analysis', 'Collaboration'],
   },
 ]
 
 export const projects = [
   {
     id: 1,
-    name: 'Fresh Marketing Content',
+    name: 'CMS Migration & Fresh Marketing Views',
     image: japanrabbitcom,
     role: 'Project Manager & Full-Stack Developer',
     tech: 'Vue, Nuxt, Tailwind, Sanity, Node.js, Typescript, GraphQL',
@@ -148,7 +83,7 @@ export const projects = [
     url: 'https://www.youtube.com/embed/yh8iZUNj8B8?start=4380',
     git: 'https://github.com/mthisgaard/jobjob',
     description:
-      'Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status. Get stats, achievements, and notifications about emails from hiring managers.',
+      'Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status.',
   },
   {
     id: 4,
@@ -181,7 +116,7 @@ export const projects = [
     url: 'https://space-tourism-beyond.netlify.app/',
     git: 'https://github.com/mthisgaard/space-tourism-app',
     description:
-      'Landing page for a fictive space tourism company, built using React and tailwindcss',
+      'Landing page for a fictive space tourism company, built using React and tailwindcss.',
   },
   {
     id: 7,

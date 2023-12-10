@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { skills } from '../constants'
+import { skillTypes } from '../constants'
 useHead({
   title: 'Skills | Malene Thisgaard',
 })
@@ -8,20 +8,26 @@ useHead({
 <template>
   <section>
     <h1>Skills</h1>
-    <div class="flex flex-wrap justify-center gap-12 mt-16">
+    <div class="pt-12 mt-8 max-w-[800px]">
       <div
-        v-for="skill in skills"
-        :key="skill.title"
-        class="flex flex-col items-center gap-2 group w-[100px]"
+        v-for="skillType in skillTypes"
+        :key="skillType.title"
+        class="grid gap-6 pb-12 sm:grid-cols-3"
       >
-        <img
-          :src="skill.icon"
-          :alt="skill.title"
-          class="w-[30px] md:w-[40px]"
-        />
-        <p class="text-center text-gray-500 opacity-0 group-hover:opacity-100">
-          {{ skill.title }}
-        </p>
+        <div class="border-l-2 border-gray-500 w-[200px]">
+          <p class="pl-8 font-bold">
+            {{ skillType.title }}
+          </p>
+        </div>
+        <div class="flex flex-wrap col-span-2 gap-2">
+          <div
+            v-for="skill in skillType.skills"
+            :key="skill"
+            class="px-4 py-2 font-semibold text-gray-100 bg-gray-800 rounded-full opacity-80"
+          >
+            <p class="text-sm">{{ skill }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

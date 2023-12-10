@@ -4,19 +4,26 @@
 
 @layer base {
   h1 {
-    @apply mb-6 text-5xl font-bold md:mt-8;
+    @apply mb-6 text-5xl font-bold text-gray-100 md:mt-8;
   }
   h2 {
-    @apply mb-4 text-4xl font-semibold;
+    @apply mb-4 text-4xl font-semibold text-gray-100;
+  }
+  p {
+    @apply text-lg leading-8;
   }
 }
 
 @layer components {
   .section {
-    @apply flex gap-8 md:gap-16 md:flex-row flex-col-reverse py-10
+    @apply flex flex-col-reverse gap-8 py-10 md:gap-16 md:flex-row;
   }
 
-  .sectionReverse { 
-    @apply flex gap-8 md:gap-16 md:text-right md:flex-row-reverse flex-col-reverse py-10
+  .sectionReverse {
+    @apply flex flex-col-reverse gap-8 py-10 md:gap-16 md:text-right md:flex-row-reverse;
+  }
+
+  .hoverLift {
+    @apply duration-500 transform hover:-translate-y-1
   }
 }
