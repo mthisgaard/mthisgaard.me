@@ -29,7 +29,7 @@ export const skillTypes = [
       'Node',
       'postgreSQL',
       'GraphQL',
-      'Hasrura',
+      'Hasura',
       'Robot Framework',
       'Python',
       'Sanity',
