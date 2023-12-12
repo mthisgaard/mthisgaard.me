@@ -15,12 +15,12 @@ useSeoMeta({
     'Portfolio site for Malene Thisgaard, Full Stack Engineer based in Tokyo Japan.',
   ogDescription:
     'Portfolio site for Malene Thisgaard, Full Stack Engineer based in Tokyo Japan.',
-  ogImage: '',
+  ogImage: '/malene.jpg',
 })
 </script>
 
 <template>
   <NuxtLayout>
-    <NuxtPage class="h-full" />
+    <NuxtPage class="h-full lg:my-10" />
   </NuxtLayout>
 </template>
