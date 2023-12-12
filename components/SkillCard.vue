@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="grid gap-6 pb-12 sm:grid-cols-3 max-w-[800px]">
+  <div class="grid gap-6 pb-12 mt-16 sm:grid-cols-3 max-w-[800px]">
     <div class="border-l-2 border-gray-500 w-[200px]">
       <p class="pl-8 font-bold">
         {{ category.title }}

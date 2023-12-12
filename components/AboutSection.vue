@@ -1,6 +1,6 @@
 <template>
   <div class="mb-12">
-    <div class="max-w-[660px] mb-16">
+    <div class="max-w-[720px] mb-16">
       <h3 class="mb-4 text-3xl font-semibold md:text-4xl">
         Hi I'm Malene, a psychologist turned engineer based in Tokyo.
       </h3>
