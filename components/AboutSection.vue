@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <div class="max-w-[600px] mb-12">
-      <h2>
-        Hi I'm Malene, a psychologist turned web developer based in Tokyo.
-      </h2>
+  <div class="mb-12">
+    <div class="max-w-[660px] mb-16">
+      <h2>Hi I'm Malene, a psychologist turned engineer based in Tokyo.</h2>
       <div>
         <p class="mt-4">
           With a background in psychology and a love for clean, user-friendly

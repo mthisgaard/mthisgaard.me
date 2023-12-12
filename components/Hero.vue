@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col gap-12 mb-14 lg:mb-20 lg:items-center lg:gap-20 lg:flex-row"
+    class="flex flex-col gap-12 mb-12 lg:mb-20 lg:items-center lg:gap-20 lg:flex-row"
   >
     <div>
       <img
-        class="rounded-xl sm:max-w-[360px]"
+        class="rounded-xl sm:max-w-[440px]"
         src="~/public/malene.jpg"
         alt="Malene"
       />
