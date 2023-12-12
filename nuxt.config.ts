@@ -13,4 +13,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  nitro: {
+    prerender: {
+      routes: ['/skills', '/projects'],
+    },
+  },
 })
