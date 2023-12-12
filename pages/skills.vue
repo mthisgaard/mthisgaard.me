@@ -8,8 +8,10 @@ useHead({
 <template>
   <section>
     <h1>Skills</h1>
-    <div v-for="skillCategory in skillCategories" :key="skillCategory.title">
-      <SkillCard :category="skillCategory" />
+    <div class="mt-16">
+      <div v-for="skillCategory in skillCategories" :key="skillCategory.title">
+        <SkillCard :category="skillCategory" />
+      </div>
     </div>
   </section>
 </template>
