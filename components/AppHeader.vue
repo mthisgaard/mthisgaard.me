@@ -1,7 +1,7 @@
 <template>
-  <header class="flex justify-between mt-16 mb-16">
+  <header class="flex flex-col gap-4 my-16 md:justify-between md:flex-row">
     <NuxtLink class="text-2xl font-bold" to="/"> MT </NuxtLink>
-    <div class="flex items-center gap-8">
+    <div class="flex items-center justify-between md:gap-8">
       <nav>
         <ul class="flex gap-6 text-lg">
           <li class="hoverLift">
