@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply mb-6 text-5xl font-bold text-gray-100 md:mt-8;
+    @apply mb-6 text-5xl font-bold text-gray-100;
   }
   h2 {
     @apply mb-4 text-4xl font-semibold text-gray-100;
@@ -24,6 +24,6 @@
   }
 
   .hoverLift {
-    @apply duration-500 transform hover:-translate-y-1
+    @apply duration-500 transform hover:-translate-y-1;
   }
 }

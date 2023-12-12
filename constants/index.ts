@@ -8,7 +8,7 @@ import {
   japanrabbitlogo,
 } from '../assets/images'
 
-export const skillTypes = [
+export const skillCategories = [
   {
     title: 'Frontend',
     skills: [
