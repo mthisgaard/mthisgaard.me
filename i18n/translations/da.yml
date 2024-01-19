@@ -24,8 +24,8 @@ projectsPage:
 
 skillCategories:
   testing:
-    title: "Testning"
-  softSkills:
+    title: "Test"
+  other:
     title: "Andre"
     skills:
       1: "Projektledelse"

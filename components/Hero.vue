@@ -5,7 +5,7 @@
     <div>
       <img
         class="rounded-xl sm:max-w-[440px]"
-        src="~/public/malene.jpg"
+        src="~/assets/images/malene.jpg"
         alt="Malene"
       />
     </div>

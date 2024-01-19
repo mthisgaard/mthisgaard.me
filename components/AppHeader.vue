@@ -3,8 +3,8 @@ const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const { locale, locales } = useI18n()
 
-const availableLocales = computed(() => {
-  return locales.value.filter((i) => i.code !== locale.value)
+const otherLocale = computed(() => {
+  return locales.value.find((i) => i.code !== locale.value)
 })
 </script>
 <template>
@@ -30,7 +30,7 @@ const availableLocales = computed(() => {
           </li>
         </ul>
       </nav>
-      <div class="flex gap-4">
+      <div class="flex items-center gap-4">
         <a
           href="/resume_malene_thisgaard.pdf"
           download
@@ -40,16 +40,23 @@ const availableLocales = computed(() => {
           <FA :icon="['fas', 'download']" />
         </a>
         <div>
-          <button
-            class="px-4 py-2 font-semibold text-gray-700 bg-gray-100 rounded-lg opacity-80 hover:opacity-100 hoverLift"
+          <NuxtLink
+            :key="otherLocale.code"
+            :to="switchLocalePath(otherLocale.code)"
           >
-            <NuxtLink
-              v-for="loc in availableLocales"
-              :key="loc.code"
-              :to="switchLocalePath(loc.code)"
-              >{{ loc.name }}</NuxtLink
-            >
-          </button>
+            <img
+              v-if="locale === 'en'"
+              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+              src="~/assets/images/da.jpg"
+              alt="Dansk"
+            />
+            <img
+              v-else
+              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+              src="~/assets/images/en.jpg"
+              alt="English"
+            />
+          </NuxtLink>
         </div>
       </div>
     </div>
