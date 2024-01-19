@@ -1,29 +1,74 @@
+<script setup>
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
+const { locale, locales } = useI18n()
+const route = useRoute()
+
+const otherLocale = computed(() => {
+  return locales.value.find((i) => i.code !== locale.value)
+})
+
+const linkStyle = computed(() => {
+  return (path) => {
+    return route.path === path ? 'border-b-2' : 'hover:border-b-2'
+  }
+})
+</script>
 <template>
   <header class="flex flex-col gap-4 my-16 md:justify-between md:flex-row">
-    <NuxtLink class="text-2xl font-bold" to="/"> MT </NuxtLink>
+    <NuxtLink class="text-2xl font-bold hoverLift" :to="localePath('index')">
+      MT
+    </NuxtLink>
     <div class="flex items-center justify-between md:gap-8">
       <nav>
         <ul class="flex gap-6 text-lg">
           <li class="hoverLift">
-            <NuxtLink to="/skills" class="pb-1 hover:border-b-2">
-              Skills
+            <NuxtLink
+              :to="localePath('skills')"
+              :class="`pb-1 ${linkStyle(localePath('skills'))}`"
+            >
+              {{ $t('header.pages.skills') }}
             </NuxtLink>
           </li>
           <li class="hoverLift">
-            <NuxtLink to="/projects" class="pb-1 hover:border-b-2">
-              Projects
+            <NuxtLink
+              :to="localePath('projects')"
+              :class="`pb-1 ${linkStyle(localePath('projects'))}`"
+            >
+              {{ $t('header.pages.projects') }}
             </NuxtLink>
           </li>
         </ul>
       </nav>
-      <a
-        href="/resume_malene_thisgaard.pdf"
-        download
-        class="px-4 py-2 font-semibold text-gray-700 bg-gray-100 rounded-lg opacity-80 hover:opacity-100 hoverLift"
-      >
-        <span class="mr-2">Resume</span>
-        <FA :icon="['fas', 'download']" />
-      </a>
+      <div class="flex items-center gap-4">
+        <a
+          href="/resume_malene_thisgaard.pdf"
+          download
+          class="px-4 py-2 font-semibold text-gray-700 bg-gray-100 rounded-lg opacity-80 hover:opacity-100 hoverLift"
+        >
+          <span class="mr-2">{{ $t('header.resume') }}</span>
+          <FA :icon="['fas', 'download']" />
+        </a>
+        <div>
+          <NuxtLink
+            :key="otherLocale.code"
+            :to="switchLocalePath(otherLocale.code)"
+          >
+            <img
+              v-if="locale === 'en'"
+              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+              src="~/assets/images/da.jpg"
+              alt="Dansk"
+            />
+            <img
+              v-else
+              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+              src="~/assets/images/en.jpg"
+              alt="English"
+            />
+          </NuxtLink>
+        </div>
+      </div>
     </div>
   </header>
 </template>

@@ -4,17 +4,14 @@ useHead({
   meta: [
     {
       name: 'description',
-      content:
-        'Portfolio site for Malene Thisgaard, Full Stack Engineer based in Tokyo Japan.',
+      content: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
     },
   ],
 })
 useSeoMeta({
   ogTitle: 'Malene Thisgaard | Portfolio',
-  description:
-    'Portfolio site for Malene Thisgaard, Full Stack Engineer based in Tokyo Japan.',
-  ogDescription:
-    'Portfolio site for Malene Thisgaard, Full Stack Engineer based in Tokyo Japan.',
+  description: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
+  ogDescription: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
   ogImage: '/malene.jpg',
 })
 </script>

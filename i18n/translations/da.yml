@@ -1,0 +1,61 @@
+header:
+  pages:
+    skills: "Kompetencer"
+    projects: "Projekter"
+
+hero:
+  name: "MALENE THISGAARD"
+  title: "Full Stack Udvikler"
+
+about:
+  title: "Hej mit navn er Malene, tidligere psykolog nu Full Stack udvikler."
+  section1: "Med en baggrund i psykologi og en kærlighed for rent, brugervenlig design laver jeg webløsninger, der er lige så lækre at bruge, som de er funktionelle. Fra tegnebrættet til lancering nyder jeg at håndtere hele livscyklussen for et projekt."
+  section2: "Jeg bygger solide produkter ved at arbejde iterativt i tæt samarbejde med stakeholders og mine med-udviklere for at identificere den bedste tilgang. Startende med en simpel MVP, hvorfra jeg kontinuerligt forbedrer løsningen gennem trial & error. Jeg trives med at takle komplekse problemer, 'learning by doing' og at eksperimentere med nye ideer."
+  connectBtn: "Skriv til mig!"
+
+skillsPage:
+  title: "Kompetencer"
+  subtitle: ""
+
+projectsPage:
+  title: "Projekter"
+  subtitle: ""
+  role: "Rolle"
+  presentation: "Projekt præsentation"
+
+skillCategories:
+  testing:
+    title: "Test"
+  other:
+    title: "Andre"
+    skills:
+      1: "Projektledelse"
+      2: "ShapeUp"
+      3: "Dataanalyse"
+      4: "Samarbejde"
+
+projects:
+  1:
+    name: "CMS Migration & Friske Marketing Views"
+    role: "Projektleder & Full Stack Udvikler"
+    description: "Migrerede marketingindhold til et nyt CMS og byggede friske views og komponenter til at fremvise indholdet, så kunder verden over kan få indsigt i japanske produkter og butikker."
+  2:
+    name: "Automatisering af Indkøb"
+    role: "Projektleder & Full Stack Udvikler"
+    description: "Stod i spidsen for lanceringen af Robotic Process Automations (RPAs) af indkøb, integreret med Japan Rabbit-appen via custom API-endpoints, resulterende i en automatisering af 20% af indkøb, med flere robotter på vej."
+  3:
+    role: "Projektleder & Full Stack Udvikler"
+    description: "Single-page app til at holde styr på jobansøgninger. Tilføj job manuelt, fra in-app jobforslag, eller fra LinkedIn ved hjælp af en Chrome-extension. Tilføj to-dos, noter og dokumenter, og opdater ansøgningsstatus."
+  4:
+    role: "Solo Full Stack Udvikler"
+    description: "Custom Shopify storefront bygget med Hydrogens React-baserede framework."
+  5:
+    role: "Solo Full Stack Udvikler"
+    description: "Full Stack blogside med kategorier, fremhævet post karrusel, seneste indlæg på forsiden og relaterede indlæg og kommentarsektioner til hvert indlæg."
+  6:
+    role: "Solo Full Stack Udvikler"
+    description: "Landingsside for et fiktivt rumsrejseburau, bygget med React og tailwindcss."
+  7:
+    role: "Projektleder & Full Stack Udvikler"
+    description: "Markedsplads-app til udlejning af tøj. Søg efter outfits og tjek kortet over lokationer. Book tøj, se den beregnede samlede pris og skriv en anmeldelse. Sæt dine outfits til udlejning og accepter eller afvis bookinger."
+ 

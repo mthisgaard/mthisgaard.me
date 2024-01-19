@@ -1,0 +1,102 @@
+header:
+  pages:
+    skills: "Skills"
+    projects: "Projects"
+  resume: "Resume"
+
+hero:
+  name: "MALENE THISGAARD"
+  title: "Full Stack Developer"
+
+about:
+  title: "Hi I'm Malene, a psychologist turned full stack developer."
+  section1: "With a background in psychology and a love for clean, user-friendly design, I make websites that are as engaging as they are functional. From the drawing board to deployment, I enjoy managing the entire life cycle of a project."
+  section2: "I build great products by working iteratively with stakeholders and fellow developers to identify the best approach, starting with a simple MVP, and continuously improving through trial and error. I thrive on tackling complex problems, learning from each try, and always experimenting with new ideas."
+  connectBtn: "Let's Connect!"
+
+skillsPage:
+  title: "Skills"
+  subtitle: ""
+
+projectsPage:
+  title: "Projects"
+  subtitle: ""
+  role: "Role"
+  presentation: "Project Pitch"
+
+skillCategories:
+  frontend:
+    title: "Frontend"
+    skills:
+      1: "HTML"
+      2: "CSS/SCSS"
+      3: "TypeScript"
+      4: "Vue"
+      5: "Nuxt"
+      6: "Tailwind"
+      7: "React"
+      8: "Next"
+      9: "Figma"
+  backend:
+    title: "Backend"
+    skills:
+      1: "Node"
+      2: "postgreSQL"
+      3: "GraphQL"
+      4: "Hasura"
+      5: "Robot Framework"
+      6: "Python"
+      7: "Sanity"
+      8: "Ruby"
+      9: "Rails"
+  devops:
+    title: "DevOps"
+    skills:
+      1: "git"
+      2: "GitHub"
+      3: "Cloudflare"
+      4: "Heroku"
+      5: "GCP"
+  testing:
+    title: "Testing"
+    skills:
+      1: "Cypress"
+      2: "Jest"
+  other:
+    title: "Other"
+    skills:
+      1: "Project Management"
+      2: "ShapeUp"
+      3: "Data Analysis"
+      4: "Collaboration"
+
+projects:
+  1:
+    name: "CMS Migration & Fresh Marketing Views"
+    role: "Project Manager & Full Stack Developer"
+    description: "Transitioned marketing content to a new CMS and crafted fresh views and components to showcase the content, empowering customers with insights on Japanese products and stores."
+  2:
+    name: "Purchasing Automation"
+    role: "Project Manager & Full Stack Developer"
+    description: "Spearheaded the launch of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing, with more bots to come."
+  3:
+    name: "JobJob"
+    role: "Project Manager & Full Stack Developer"
+    description: "Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."
+  4:
+    name: "Million Plants"
+    role: "Solo Full Stack Developer"
+    description: "Customized Shopify storefront created with Hydrogen's React-based framework."
+  5:
+    name: "Japan Blog"
+    role: "Solo Full Stack Developer"
+    description: "Full Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post."
+  6:
+    name: "Beyond"
+    role: "Solo Full Stack Developer"
+    description: "Landing page for a fictive space tourism company, built using React and tailwindcss."
+  7:
+    name: "Oshare"
+    role: "Project Manager & Full Stack Developer"
+    description: "Marketplace app for outfit rentals. Search outfits and browse the map of locations. Book outfits, see the calculated total price, and leave a review. List outfits and accept or reject bookings."
+ 

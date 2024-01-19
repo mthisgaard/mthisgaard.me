@@ -5,12 +5,35 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/i18n'],
   plugins: ['~/plugins/fontawesome.ts'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.yml',
+      },
+      {
+        code: 'da',
+        name: 'Dansk',
+        file: 'da.yml',
+      },
+    ],
+    langDir: './i18n/translations',
+    defaultLocale: 'en',
+    strategy: 'prefix',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
     },
   },
   nitro: {
