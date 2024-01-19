@@ -7,7 +7,8 @@ useHead({
 
 <template>
   <section>
-    <h1>Projects</h1>
+    <h1>{{ $t('projectsPage.title') }}</h1>
+    <h3>{{ $t('projectsPage.subtitle') }}</h3>
     <div v-for="project in projects" :key="project.name">
       <ProjectCard :project="project" />
     </div>

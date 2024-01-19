@@ -7,9 +7,10 @@ useHead({
 
 <template>
   <section>
-    <h1>Skills</h1>
+    <h1>{{ $t(`skillsPage.title`) }}</h1>
+    <h3>{{ $t(`skillsPage.subtitle`) }}</h3>
     <div class="mt-16">
-      <div v-for="skillCategory in skillCategories" :key="skillCategory.title">
+      <div v-for="skillCategory in skillCategories" :key="skillCategory.key">
         <SkillCard :category="skillCategory" />
       </div>
     </div>
