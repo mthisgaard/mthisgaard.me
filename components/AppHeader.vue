@@ -2,28 +2,38 @@
 const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const { locale, locales } = useI18n()
+const route = useRoute()
 
 const otherLocale = computed(() => {
   return locales.value.find((i) => i.code !== locale.value)
 })
+
+const linkStyle = computed(() => {
+  return (path) => {
+    return route.path === path ? 'border-b-2' : 'hover:border-b-2'
+  }
+})
 </script>
 <template>
   <header class="flex flex-col gap-4 my-16 md:justify-between md:flex-row">
-    <NuxtLink class="text-2xl font-bold" :to="localePath('index')">
+    <NuxtLink class="text-2xl font-bold hoverLift" :to="localePath('index')">
       MT
     </NuxtLink>
     <div class="flex items-center justify-between md:gap-8">
       <nav>
         <ul class="flex gap-6 text-lg">
           <li class="hoverLift">
-            <NuxtLink :to="localePath('skills')" class="pb-1 hover:border-b-2">
+            <NuxtLink
+              :to="localePath('skills')"
+              :class="`pb-1 ${linkStyle(localePath('skills'))}`"
+            >
               {{ $t('header.pages.skills') }}
             </NuxtLink>
           </li>
           <li class="hoverLift">
             <NuxtLink
               :to="localePath('projects')"
-              class="pb-1 hover:border-b-2"
+              :class="`pb-1 ${linkStyle(localePath('projects'))}`"
             >
               {{ $t('header.pages.projects') }}
             </NuxtLink>
