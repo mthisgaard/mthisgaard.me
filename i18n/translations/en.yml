@@ -6,12 +6,12 @@ header:
 
 hero:
   name: "MALENE THISGAARD"
-  title: "Full Stack Engineer"
+  title: "Full Stack Developer"
 
 about:
-  title: "Hi I'm Malene, a psychologist turned engineer."
+  title: "Hi I'm Malene, a psychologist turned full stack developer."
   section1: "With a background in psychology and a love for clean, user-friendly design, I make websites that are as engaging as they are functional. From the drawing board to deployment, I enjoy managing the entire life cycle of a project."
-  section2: "I build great products by working iteratively with stakeholders and fellow engineers to identify the best approach, starting with a simple MVP, and continuously improving through trial and error. I thrive on tackling complex problems, learning from each try, and experimenting with new ideas along the way."
+  section2: "I build great products by working iteratively with stakeholders and fellow developers to identify the best approach, starting with a simple MVP, and continuously improving through trial and error. I thrive on tackling complex problems, learning from each try, and always experimenting with new ideas."
   connectBtn: "Let's Connect!"
 
 skillsPage:
