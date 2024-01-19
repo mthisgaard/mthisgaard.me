@@ -15,11 +15,13 @@ const linkStyle = computed(() => {
 })
 </script>
 <template>
-  <header class="flex flex-col gap-4 my-16 md:justify-between md:flex-row">
+  <header class="flex flex-row justify-between gap-4 my-8 md:my-16">
     <NuxtLink class="text-2xl font-bold hoverLift" :to="localePath('index')">
       MT
     </NuxtLink>
-    <div class="flex items-center justify-between md:gap-8">
+    <div
+      class="flex flex-col-reverse items-end justify-between gap-4 md:items-center md:flex-row md:gap-8"
+    >
       <nav>
         <ul class="flex gap-6 text-lg">
           <li class="hoverLift">
