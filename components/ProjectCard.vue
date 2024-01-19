@@ -30,7 +30,7 @@ const props = defineProps({
         </h2>
         <p class="mb-4">{{ $t(`projects.${project.id}.description`) }}</p>
         <p>
-          <span class="font-bold">Role: </span>
+          <span class="font-bold">{{ $t(`projectsPage.role`) }}: </span>
           {{ $t(`projects.${project.id}.role`) }}
         </p>
         <p class="mb-4">
