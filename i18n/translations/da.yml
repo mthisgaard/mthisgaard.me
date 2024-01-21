@@ -8,9 +8,9 @@ hero:
   title: "Full Stack Udvikler"
 
 about:
-  title: "Hej mit navn er Malene, tidligere psykolog nu Full Stack udvikler."
-  section1: "Med en baggrund i psykologi og en kærlighed for rent, brugervenlig design laver jeg webløsninger, der er lige så lækre at bruge, som de er funktionelle. Fra tegnebrættet til lancering nyder jeg at håndtere hele livscyklussen for et projekt."
-  section2: "Jeg bygger solide produkter ved at arbejde iterativt i tæt samarbejde med stakeholders og mine med-udviklere for at identificere den bedste tilgang. Startende med en simpel MVP, hvorfra jeg kontinuerligt forbedrer løsningen gennem trial & error. Jeg trives med at takle komplekse problemer, 'learning by doing' og at eksperimentere med nye ideer."
+  title: "Hej mit navn er Malene, tidligere psykolog nu full stack udvikler."
+  section1: "Med en baggrund i psykologi og en forkærlighed for rent, brugervenligt design laver jeg webløsninger, der er lige så lækre at bruge, som de er funktionelle. Fra tegnebrættet til implementering nyder jeg at styre hele et projekts livscyklus."
+  section2: "Jeg bygger solide produkter ved at arbejde iterativt i tæt samarbejde med stakeholders og mine med-udviklere for at identificere den bedste tilgang. Startende med en simpel MVP, kontinuerligt forbedret gennem trial & error. Jeg trives med at takle komplekse problemer, 'learning by doing' og at eksperimentere med nye ideer."
   connectBtn: "Skriv til mig!"
 
 skillsPage:

@@ -44,7 +44,7 @@ const linkStyle = computed(() => {
       </nav>
       <div class="flex items-center gap-4">
         <a
-          href="/resume_malene_thisgaard.pdf"
+          :href="`/${locale}_resume_malene_thisgaard.pdf`"
           download
           class="px-4 py-2 font-semibold text-gray-700 bg-gray-100 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
@@ -57,16 +57,8 @@ const linkStyle = computed(() => {
             :to="switchLocalePath(otherLocale.code)"
           >
             <img
-              v-if="locale === 'en'"
               class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
-              src="~/assets/images/da.jpg"
-              alt="Dansk"
-            />
-            <img
-              v-else
-              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
-              src="~/assets/images/en.jpg"
-              alt="English"
+              :src="`/${otherLocale.code}.jpg`"
             />
           </NuxtLink>
         </div>
