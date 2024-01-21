@@ -1,3 +1,7 @@
+head:
+  title: "Portfolio - Malene Thisgaard"
+  description: "Portfolio site for Malene Thisgaard, Full Stack Developer"
+
 header:
   pages:
     skills: "Skills"

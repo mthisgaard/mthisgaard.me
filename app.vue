@@ -1,17 +1,19 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 useHead({
-  title: 'Portfolio | Malene Thisgaard',
+  title: t('head.title'),
   meta: [
     {
       name: 'description',
-      content: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
+      content: t('head.description'),
     },
   ],
 })
 useSeoMeta({
-  ogTitle: 'Malene Thisgaard | Portfolio',
-  description: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
-  ogDescription: 'Portfolio site for Malene Thisgaard, Full Stack Developer',
+  ogTitle: t('head.title'),
+  description: t('head.description'),
+  ogDescription: t('head.description'),
   ogImage: '/malene.jpg',
 })
 </script>
