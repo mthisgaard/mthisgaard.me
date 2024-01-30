@@ -43,25 +43,15 @@ const linkStyle = computed(() => {
         </ul>
       </nav>
       <div class="flex items-center gap-4">
-        <a
-          :href="`/${locale}_resume_malene_thisgaard.pdf`"
-          download
-          class="px-4 py-2 font-semibold text-gray-700 bg-gray-100 rounded-lg opacity-80 hover:opacity-100 hoverLift"
+        <NuxtLink
+          :key="otherLocale.code"
+          :to="switchLocalePath(otherLocale.code)"
         >
-          <span class="mr-2">{{ $t('header.resume') }}</span>
-          <FA :icon="['fas', 'download']" />
-        </a>
-        <div>
-          <NuxtLink
-            :key="otherLocale.code"
-            :to="switchLocalePath(otherLocale.code)"
-          >
-            <img
-              class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
-              :src="`/${otherLocale.code}.jpg`"
-            />
-          </NuxtLink>
-        </div>
+          <img
+            class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+            :src="`/${otherLocale.code}.jpg`"
+          />
+        </NuxtLink>
       </div>
     </div>
   </header>
