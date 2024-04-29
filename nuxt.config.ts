@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/i18n'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/i18n', '@nuxtjs/color-mode'],
   plugins: ['~/plugins/fontawesome.ts'],
   postcss: {
     plugins: {
@@ -35,6 +35,11 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
     },
+  },
+  colorMode: {
+    preference: 'system',
+    fallback: 'dark',
+    classSuffix: ''
   },
   nitro: {
     prerender: {
