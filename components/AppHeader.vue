@@ -10,7 +10,7 @@ const otherLocale = computed(() => {
 
 const linkStyle = computed(() => {
   return (path) => {
-    return route.path === path ? 'border-b-2' : 'hover:border-b-2'
+    return route.path === path ? 'border-b-2' : 'hover:border-b-2 border-gray-800 dark:border-gray-200'
   }
 })
 
