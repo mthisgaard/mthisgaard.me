@@ -16,7 +16,7 @@
     <div class="hoverLift">
       <a
         href="https://www.linkedin.com/in/malenethisgaard/"
-        download
+        target="_blank"
         class="px-6 py-4 text-2xl text-gray-100 bg-gray-800 rounded-lg"
       >
         {{ $t('about.connectBtn') }}

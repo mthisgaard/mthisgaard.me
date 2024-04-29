@@ -5,7 +5,12 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/i18n', '@nuxtjs/color-mode'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
+  ],
   plugins: ['~/plugins/fontawesome.ts'],
   postcss: {
     plugins: {
