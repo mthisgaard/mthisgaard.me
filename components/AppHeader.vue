@@ -10,7 +10,9 @@ const otherLocale = computed(() => {
 
 const linkStyle = computed(() => {
   return (path) => {
-    return route.path === path ? 'border-b-2' : 'hover:border-b-2 border-gray-800 dark:border-gray-200'
+    return route.path === path
+      ? 'border-b-2'
+      : 'hover:border-b-2 border-gray-800 dark:border-gray-200'
   }
 })
 
@@ -18,6 +20,7 @@ const colorMode = useColorMode()
 
 const toggleTheme = () => {
   colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
+  colorMode.value = colorMode.preference === 'dark' ? 'light' : 'dark'
 }
 </script>
 <template>
@@ -58,16 +61,12 @@ const toggleTheme = () => {
             :src="`/${otherLocale.code}.jpg`"
           />
         </NuxtLink>
-        <div @click="toggleTheme" class="opacity-80 hover:opacity-100 hoverLift">
-          <FA
-            v-show="colorMode.preference === 'light'"
-            :icon="['fas', 'moon']"
-
-          />
-          <FA
-            v-show="colorMode.preference === 'dark'"
-            :icon="['fas', 'sun']"
-          />
+        <div
+          class="opacity-80 hover:opacity-100 hoverLift"
+          @click="toggleTheme"
+        >
+          <FA v-show="colorMode.value === 'light'" :icon="['fas', 'moon']" />
+          <FA v-show="colorMode.value === 'dark'" :icon="['fas', 'sun']" />
         </div>
       </div>
     </div>

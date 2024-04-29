@@ -42,9 +42,9 @@ export default defineNuxtConfig({
     },
   },
   colorMode: {
-    preference: 'dark',
+    preference: 'system',
     fallback: 'dark',
-    classSuffix: ''
+    classSuffix: '',
   },
   nitro: {
     prerender: {
