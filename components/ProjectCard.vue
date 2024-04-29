@@ -19,7 +19,7 @@ const props = defineProps({
             project.id === 2
               ? 'object-scale-down bg-gray-100'
               : 'object-cover object-left-top'
-          } w-full md:w-[300px] h-[300px] rounded-lg shadow`"
+          } w-full md:w-[300px] h-[300px] rounded-lg shadow-xl`"
         />
       </div>
     </a>
