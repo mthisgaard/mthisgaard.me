@@ -20,7 +20,6 @@ const colorMode = useColorMode()
 
 const toggleTheme = () => {
   colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
-  colorMode.value = colorMode.preference === 'dark' ? 'light' : 'dark'
 }
 </script>
 <template>
@@ -65,8 +64,14 @@ const toggleTheme = () => {
           class="opacity-80 hover:opacity-100 hoverLift"
           @click="toggleTheme"
         >
-          <FA v-show="colorMode.value === 'light'" :icon="['fas', 'moon']" />
-          <FA v-show="colorMode.value === 'dark'" :icon="['fas', 'sun']" />
+          <FA
+            v-show="colorMode.preference === 'light'"
+            :icon="['fas', 'moon']"
+          />
+          <FA
+            v-show="colorMode.preference === 'dark'"
+            :icon="['fas', 'sun']"
+          />
         </div>
       </div>
     </div>
