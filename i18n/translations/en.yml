@@ -88,33 +88,30 @@ projects:
     name: "Full-Stack i18n Integration"
     description: "Implemented a unified i18n solution that powers localization for both client-rendered Vue and server-rendered pug templates, delivering a seamless multi-language experience for users."
   2:
-    name: "Fetching & parsing complex data"
-    description: "Expanded search coverage by integrating several new providers, using robust data ingestion strategies to fetch and parse real-time flight data within the existing application architecture."
-  3:
     name: "Custom Shepherd.js Tutorial System"
     description: "Built a fully custom tour solution for Vue using Shepherd.js, including centralized tour management, i18n-driven content, user progress tracking, and multiple trigger methods, providing a flexible and enjoyable onboarding experience."
-  4:
+  3:
     name: "New Search Filter with Custom Slider"
     description: "Developed a new times search filter featuring a custom reusable dual-range slider, enhancing search flexibility for users."
-  5:
+  4:
     name: "CMS Migration & Fresh Marketing Views"
     description: "Transitioned marketing content to a new CMS and crafted fresh views and components to showcase the content, empowering customers with insights on Japanese products and stores."
-  6:
+  5:
     name: "Purchasing Automation"
     description: "Spearheaded the integration of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing."
-  7:
+  6:
     name: "JobJob"
     description: "Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."
-  8:
+  7:
     name: "Million Plants"
     description: "Customized Shopify storefront created with Hydrogen's React-based framework."
-  9:
+  8:
     name: "Japan Blog"
     description: "Full Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post."
-  10:
+  9:
     name: "Beyond"
     description: "Landing page for a fictive space tourism company, built using React and tailwindcss."
-  11:
+  10:
     name: "Oshare"
     description: "Marketplace app for outfit rentals. Search outfits and browse the map of locations. Book outfits, see the calculated total price, and leave a review. List outfits and accept or reject bookings."
  

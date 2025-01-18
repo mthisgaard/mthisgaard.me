@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <div :class="`${project.id % 2 === 0 ? 'sectionReverse' : 'section'}`">
     <a :href="project.url" target="_blank">
-      <div class="relative flex">
+      <div class="relative flex bg-gray-100 rounded-lg">
         <img
           v-if="project.image"
           :src="project.image"
@@ -20,7 +20,7 @@ const props = defineProps({
             project.id === 2
               ? 'object-scale-down bg-gray-100'
               : 'object-cover object-left-top'
-          } w-full md:w-[250px] h-[250px] rounded-lg shadow-xl`"
+          } aspect-square w-full md:w-[250px] md:h-[250px] rounded-lg shadow-xl`"
         />
       </div>
     </a>
@@ -46,7 +46,7 @@ const props = defineProps({
           class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
           <span class="mr-2">{{
-            project.id === 3 ? $t(`projectsPage.presentation`) : 'Website'
+            project.id === 6 ? $t(`projectsPage.presentation`) : 'Website'
           }}</span>
           <PhArrowSquareOut :size="16" weight="bold" class="self-center" />
         </a>

@@ -42,28 +42,25 @@ projects:
     name: "Full-Stack i18n integration"
     description: "Implementerede en samlet i18n-løsning, der muliggør lokalisering for både client-rendered Vue og server-redered pug templates, for en gnidningsfri, flersproget brugeroplevelse."
   2:
-    name: "Fetching & parsing af kompleks data"
-    description: "Udvidede søgerækkevidden ved at integrere flere nye udbydere, ved hjælp af robuste dataindsamlingsstrategier til at fetche & parse realtids flydata i den eksisterende applikationsarkitektur."
-  3:
     name: "Skræddersyet Shepherd.js tutorial system"
     description: "Byggede en helt custom tour-løsning til Vue ved hjælp af Shepherd.js, herunder centraliseret styring, i18n-baseret indhold, bruger tracking og flere aktiveringsmetoder, for en fleksibel og brugervenlig onboarding oplevelse."
-  4:
+  3:
     name: "Nyt søgefilter med custom slider"
     description: "Udviklede et nyt søgefilter med en fuldt custom, genanvendelig slider med to intervaller, som forbedrede brugernes mulighed for at filtrere deres søgning."
-  5:
+  4:
     name: "CMS Migration & Friske Marketing Views"
     description: "Migrerede marketingindhold til et nyt CMS og byggede friske views og komponenter til at fremvise indholdet, så kunder verden over kan få indsigt i japanske produkter og butikker."
-  6:
+  5:
     name: "Automatisering af Indkøb"
     description: "Stod i spidsen for integration af Robotic Process Automations (RPAs) af indkøb, integreret med Japan Rabbit-appen via custom API-endpoints, resulterende i en automatisering af 20% af indkøb, med flere robotter på vej."
-  7:
+  6:
     description: "Single-page app til at holde styr på jobansøgninger. Tilføj job manuelt, fra in-app jobforslag, eller fra LinkedIn ved hjælp af en Chrome-extension. Tilføj to-dos, noter og dokumenter, og opdater ansøgningsstatus."
-  8:
+  7:
     description: "Custom Shopify storefront bygget med Hydrogens React-baserede framework."
-  9:
+  8:
     description: "Full Stack blogside med kategorier, fremhævet post karrusel, seneste indlæg på forsiden og relaterede indlæg og kommentarsektioner til hvert indlæg."
-  10:
+  9:
     description: "Landingsside for et fiktivt rumsrejseburau, bygget med React og tailwindcss."
-  11:
+  10:
     description: "Markedsplads-app til udlejning af tøj. Søg efter outfits og tjek kortet over lokationer. Book tøj, se den beregnede samlede pris og skriv en anmeldelse. Sæt dine outfits til udlejning og accepter eller afvis bookinger."
  
