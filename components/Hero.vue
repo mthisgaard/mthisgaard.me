@@ -1,6 +1,3 @@
-<script setup>
-import { PhGithubLogo, PhLinkedinLogo, PhAt } from '@phosphor-icons/vue'
-</script>
 <template>
   <div
     class="flex flex-col gap-12 mb-12 lg:mb-20 lg:items-center lg:gap-20 lg:flex-row"
@@ -21,21 +18,21 @@ import { PhGithubLogo, PhLinkedinLogo, PhAt } from '@phosphor-icons/vue'
           href="https://github.com/mthisgaard"
           target="_blank"
         >
-          <PhGithubLogo :size="28" />
+          <PhosphorIconGithubLogo :size="28" />
         </a>
         <a
           class="opacity-80 hover:opacity-100 hoverLift"
           href="https://www.linkedin.com/in/malenethisgaard/"
           target="_blank"
         >
-          <PhLinkedinLogo :size="28" />
+          <PhosphorIconLinkedinLogo :size="28" />
         </a>
         <a
           class="opacity-80 hover:opacity-100 hoverLift"
           href="mailto:malene.thisgaard@gmail.com"
           target="_blank"
         >
-          <PhAt :size="28" />
+          <PhosphorIconAt :size="28" />
         </a>
       </div>
     </div>

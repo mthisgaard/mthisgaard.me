@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { PhArrowSquareOut, PhGithubLogo } from '@phosphor-icons/vue'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = defineProps({
   project: {
@@ -48,7 +47,11 @@ const props = defineProps({
           <span class="mr-2">{{
             project.id === 6 ? $t(`projectsPage.presentation`) : 'Website'
           }}</span>
-          <PhArrowSquareOut :size="16" weight="bold" class="self-center" />
+          <PhosphorIconArrowSquareOut
+            :size="16"
+            weight="bold"
+            class="self-center"
+          />
         </a>
         <a
           v-if="project.git"
@@ -57,7 +60,7 @@ const props = defineProps({
           class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
           <span class="mr-2">GitHub</span>
-          <PhGithubLogo :size="16" class="self-center" />
+          <PhosphorIconGithubLogo :size="16" class="self-center" />
         </a>
       </div>
     </div>

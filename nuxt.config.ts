@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
+    'nuxt-phosphor-icons',
   ],
   postcss: {
     plugins: {

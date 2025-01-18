@@ -1,5 +1,4 @@
 <script setup>
-import { PhSun, PhMoon } from '@phosphor-icons/vue'
 const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const { locale, locales } = useI18n()
@@ -65,8 +64,14 @@ const toggleTheme = () => {
           class="opacity-80 hover:opacity-100 hoverLift"
           @click="toggleTheme"
         >
-          <PhMoon v-show="colorMode.preference === 'light'" :size="28" />
-          <PhSun v-show="colorMode.preference === 'dark'" :size="28" />
+          <PhosphorIconMoon
+            v-show="colorMode.preference === 'light'"
+            :size="28"
+          />
+          <PhosphorIconSun
+            v-show="colorMode.preference === 'dark'"
+            :size="28"
+          />
         </div>
       </div>
     </div>
