@@ -1,17 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: [
-    '~/assets/css/main.css',
-    '@fortawesome/fontawesome-svg-core/styles.css',
-  ],
+  css: ['~/assets/css/main.css'],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
   ],
-  plugins: ['~/plugins/fontawesome.ts'],
   postcss: {
     plugins: {
       tailwindcss: {},

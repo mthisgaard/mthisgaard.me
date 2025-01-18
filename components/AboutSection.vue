@@ -17,7 +17,7 @@
       <a
         href="https://www.linkedin.com/in/malenethisgaard/"
         target="_blank"
-        class="px-6 py-4 text-2xl text-gray-100 bg-gray-800 rounded-lg"
+        class="px-6 py-4 text-gray-100 bg-gray-800 rounded-lg text-1xl"
       >
         {{ $t('about.connectBtn') }}
       </a>

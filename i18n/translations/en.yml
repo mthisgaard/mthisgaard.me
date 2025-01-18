@@ -35,24 +35,34 @@ skillCategories:
       1: "HTML"
       2: "CSS/SCSS"
       3: "TypeScript"
-      4: "Vue"
-      5: "Nuxt"
-      6: "Tailwind"
+      4: "Vue 3 & Composition API"
+      5: "Vite"
+      6: "Nuxt"
       7: "React"
       8: "Next"
-      9: "Figma"
+      9: "Internationalization (nuxtjs/i18n, i18next)"
+      10: "Tailwind"
+      11: "Figma"
   backend:
     title: "Backend"
     skills:
       1: "Node"
       2: "postgreSQL"
       3: "GraphQL"
-      4: "Hasura"
-      5: "Robot Framework"
+      4: "MongoDB"
+      5: "Hasura"
       6: "Python"
-      7: "Sanity"
-      8: "Ruby"
-      9: "Rails"
+      7: "Express"
+      8: "Mailing (Postmark, Brevo)"
+      9: "Ruby"
+      10: "Rails"
+      11: "Sanity"
+  automation:
+    title: "Automation"
+    skills:
+      1: "Puppeteer"
+      2: "Playwright"
+      3: "Robot Framework"
   devops:
     title: "DevOps"
     skills:
@@ -69,38 +79,42 @@ skillCategories:
   other:
     title: "Other"
     skills:
-      1: "Project Management"
-      2: "ShapeUp"
-      3: "Data Analysis"
-      4: "Collaboration"
+      1: "Analytics (Mixpanel & Looker Studio)"
+      2: "Slack, Linear, Jira"
+      3: "ShapeUp"
 
 projects:
   1:
-    name: "CMS Migration & Fresh Marketing Views"
-    role: "Project Manager & Full Stack Developer"
-    description: "Transitioned marketing content to a new CMS and crafted fresh views and components to showcase the content, empowering customers with insights on Japanese products and stores."
+    name: "Full-Stack i18n Integration"
+    description: "Implemented a unified i18n solution that powers localization for both client-rendered Vue and server-rendered pug templates, delivering a seamless multi-language experience for users."
   2:
-    name: "Purchasing Automation"
-    role: "Project Manager & Full Stack Developer"
-    description: "Spearheaded the launch of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing, with more bots to come."
+    name: "Fetching & parsing complex data"
+    description: "Expanded search coverage by integrating several new providers, using robust data ingestion strategies to fetch and parse real-time flight data within the existing application architecture."
   3:
-    name: "JobJob"
-    role: "Project Manager & Full Stack Developer"
-    description: "Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."
+    name: "Custom Shepherd.js Tutorial System"
+    description: "Built a fully custom tour solution for Vue using Shepherd.js, including centralized tour management, i18n-driven content, user progress tracking, and multiple trigger methods, providing a flexible and enjoyable onboarding experience."
   4:
-    name: "Million Plants"
-    role: "Solo Full Stack Developer"
-    description: "Customized Shopify storefront created with Hydrogen's React-based framework."
+    name: "New Search Filter with Custom Slider"
+    description: "Developed a new times search filter featuring a custom reusable dual-range slider, enhancing search flexibility for users."
   5:
-    name: "Japan Blog"
-    role: "Solo Full Stack Developer"
-    description: "Full Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post."
+    name: "CMS Migration & Fresh Marketing Views"
+    description: "Transitioned marketing content to a new CMS and crafted fresh views and components to showcase the content, empowering customers with insights on Japanese products and stores."
   6:
-    name: "Beyond"
-    role: "Solo Full Stack Developer"
-    description: "Landing page for a fictive space tourism company, built using React and tailwindcss."
+    name: "Purchasing Automation"
+    description: "Spearheaded the integration of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing."
   7:
+    name: "JobJob"
+    description: "Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."
+  8:
+    name: "Million Plants"
+    description: "Customized Shopify storefront created with Hydrogen's React-based framework."
+  9:
+    name: "Japan Blog"
+    description: "Full Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post."
+  10:
+    name: "Beyond"
+    description: "Landing page for a fictive space tourism company, built using React and tailwindcss."
+  11:
     name: "Oshare"
-    role: "Project Manager & Full Stack Developer"
     description: "Marketplace app for outfit rentals. Search outfits and browse the map of locations. Book outfits, see the calculated total price, and leave a review. List outfits and accept or reject bookings."
  

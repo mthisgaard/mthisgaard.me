@@ -9,13 +9,13 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="grid gap-6 pb-12 sm:grid-cols-3 max-w-[800px]">
-    <div class="border-l-2 border-gray-500 w-[200px]">
+  <div class="grid gap-6 pb-8 sm:grid-cols-4 max-w-[1000px]">
+    <div class="border-l-2 border-gray-500 w-[100px]">
       <p class="pl-8 font-bold">
         {{ $t(`skillCategories.${category.key}.title`) }}
       </p>
     </div>
-    <div class="flex flex-wrap col-span-2 gap-2">
+    <div class="flex flex-wrap col-span-3 gap-2">
       <div
         v-for="i in category.count"
         :key="i"

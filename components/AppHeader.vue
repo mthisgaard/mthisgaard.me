@@ -1,4 +1,5 @@
 <script setup>
+import { PhSun, PhMoon } from '@phosphor-icons/vue'
 const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const { locale, locales } = useI18n()
@@ -56,7 +57,7 @@ const toggleTheme = () => {
           :to="switchLocalePath(otherLocale.code)"
         >
           <img
-            class="w-8 h-8 rounded-full opacity-80 hover:opacity-100 hoverLift"
+            class="rounded-full w-7 h-7 opacity-80 hover:opacity-100 hoverLift"
             :src="`/${otherLocale.code}.jpg`"
           />
         </NuxtLink>
@@ -64,14 +65,8 @@ const toggleTheme = () => {
           class="opacity-80 hover:opacity-100 hoverLift"
           @click="toggleTheme"
         >
-          <FA
-            v-show="colorMode.preference === 'light'"
-            :icon="['fas', 'moon']"
-          />
-          <FA
-            v-show="colorMode.preference === 'dark'"
-            :icon="['fas', 'sun']"
-          />
+          <PhMoon v-show="colorMode.preference === 'light'" :size="28" />
+          <PhSun v-show="colorMode.preference === 'dark'" :size="28" />
         </div>
       </div>
     </div>

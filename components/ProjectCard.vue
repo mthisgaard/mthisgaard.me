@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { PhArrowSquareOut, PhGithubLogo } from '@phosphor-icons/vue'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = defineProps({
   project: {
@@ -19,7 +20,7 @@ const props = defineProps({
             project.id === 2
               ? 'object-scale-down bg-gray-100'
               : 'object-cover object-left-top'
-          } w-full md:w-[300px] h-[300px] rounded-lg shadow-xl`"
+          } w-full md:w-[250px] h-[250px] rounded-lg shadow-xl`"
         />
       </div>
     </a>
@@ -29,10 +30,6 @@ const props = defineProps({
           {{ $t(`projects.${project.id}.name`) }}
         </h2>
         <p class="mb-4">{{ $t(`projects.${project.id}.description`) }}</p>
-        <p>
-          <span class="font-bold">{{ $t(`projectsPage.role`) }}: </span>
-          {{ $t(`projects.${project.id}.role`) }}
-        </p>
         <p class="mb-4">
           <span class="font-bold">Tech: </span> {{ project.tech }}
         </p>
@@ -46,20 +43,22 @@ const props = defineProps({
           v-if="project.url"
           :href="project.url"
           target="_blank"
-          class="px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
+          class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
           <span class="mr-2">{{
             project.id === 3 ? $t(`projectsPage.presentation`) : 'Website'
           }}</span>
-          <FA :icon="['fas', 'link']"
-        /></a>
+          <PhArrowSquareOut :size="16" weight="bold" class="self-center" />
+        </a>
         <a
           v-if="project.git"
           :href="project.git"
           target="_blank"
-          class="px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
-          ><span class="mr-2">GitHub</span><FA :icon="['fab', 'github']"
-        /></a>
+          class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
+        >
+          <span class="mr-2">GitHub</span>
+          <PhGithubLogo :size="16" class="self-center" />
+        </a>
       </div>
     </div>
   </div>
