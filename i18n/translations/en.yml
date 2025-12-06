@@ -100,18 +100,8 @@ projects:
     name: "Purchasing Automation"
     description: "Spearheaded the integration of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing."
   6:
-    name: "JobJob"
-    description: "Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."
-  7:
     name: "Million Plants"
     description: "Customized Shopify storefront created with Hydrogen's React-based framework."
-  8:
-    name: "Japan Blog"
-    description: "Full Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post."
-  9:
-    name: "Beyond"
-    description: "Landing page for a fictive space tourism company, built using React and tailwindcss."
-  10:
-    name: "Oshare"
-    description: "Marketplace app for outfit rentals. Search outfits and browse the map of locations. Book outfits, see the calculated total price, and leave a review. List outfits and accept or reject bookings."
- 
+  7:
+    name: "JobJob"
+    description: "LeWagon graduation project: Single-page app to track job applications. Add jobs manually, from in-app job suggestions, or from LinkedIn using a chrome extension. Add tasks, notes, and docs, and update application status."

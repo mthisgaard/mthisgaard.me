@@ -54,13 +54,6 @@ projects:
     name: "Automatisering af Indkøb"
     description: "Stod i spidsen for integration af Robotic Process Automations (RPAs) af indkøb, integreret med Japan Rabbit-appen via custom API-endpoints, resulterende i en automatisering af 20% af indkøb, med flere robotter på vej."
   6:
-    description: "Single-page app til at holde styr på jobansøgninger. Tilføj job manuelt, fra in-app jobforslag, eller fra LinkedIn ved hjælp af en Chrome-extension. Tilføj to-dos, noter og dokumenter, og opdater ansøgningsstatus."
-  7:
     description: "Custom Shopify storefront bygget med Hydrogens React-baserede framework."
-  8:
-    description: "Full Stack blogside med kategorier, fremhævet post karrusel, seneste indlæg på forsiden og relaterede indlæg og kommentarsektioner til hvert indlæg."
-  9:
-    description: "Landingsside for et fiktivt rumsrejseburau, bygget med React og tailwindcss."
-  10:
-    description: "Markedsplads-app til udlejning af tøj. Søg efter outfits og tjek kortet over lokationer. Book tøj, se den beregnede samlede pris og skriv en anmeldelse. Sæt dine outfits til udlejning og accepter eller afvis bookinger."
- 
+  7:
+    description: "LeWagon graduation project: Single-page app til at holde styr på jobansøgninger. Tilføj job manuelt, fra in-app jobforslag, eller fra LinkedIn ved hjælp af en Chrome-extension. Tilføj to-dos, noter og dokumenter, og opdater ansøgningsstatus."

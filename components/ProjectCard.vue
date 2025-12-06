@@ -11,7 +11,7 @@ const props = defineProps({
 <template>
   <div :class="`${project.id % 2 === 0 ? 'sectionReverse' : 'section'}`">
     <a :href="project.url" target="_blank">
-      <div class="relative flex bg-gray-100 rounded-lg">
+      <div class="flex relative bg-gray-100 rounded-lg">
         <img
           v-if="project.image"
           :src="project.image"
@@ -45,7 +45,7 @@ const props = defineProps({
           class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
           <span class="mr-2">{{
-            project.id === 6 ? $t(`projectsPage.presentation`) : 'Website'
+            project.id === 7 ? $t(`projectsPage.presentation`) : 'Website'
           }}</span>
           <PhosphorIconArrowSquareOut
             :size="16"
