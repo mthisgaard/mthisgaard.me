@@ -10,7 +10,7 @@
       />
     </div>
     <div>
-      <h1 class="mt-0 text-5xl md:text-7xl">MALENE</h1>
+      <h1 class="mt-0 mb-2 text-5xl md:text-7xl">MALENE</h1>
       <h1 class="mt-0 text-5xl md:text-7xl">THISGAARD</h1>
       <h3 class="text-2xl">{{ $t('hero.title') }}</h3>
       <div class="flex gap-6 text-[24px] mt-5">
