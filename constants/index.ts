@@ -64,7 +64,7 @@ export const projects = [
     id: 7,
     image: japanrabbitlogo,
     tech: 'Robot Framework, Python, Node, Typescript, GraphQL, Hasura',
-    url: null,
+    url: 'https://japanrabbit.com',
     git: null,
   },
 ]

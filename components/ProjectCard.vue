@@ -21,11 +21,11 @@ const props = defineProps({
     </a>
     <div class="flex-col flex-1">
       <div>
-        <h2 class="mb-4">
+        <h2 class="mb-2">
           {{ $t(`projects.${project.id}.name`) }}
         </h2>
-        <p class="mb-4">{{ $t(`projects.${project.id}.description`) }}</p>
-        <p class="mb-4">
+        <p class="mb-2">{{ $t(`projects.${project.id}.description`) }}</p>
+        <p class="mb-2">
           <span class="font-bold">Tech: </span> {{ project.tech }}
         </p>
       </div>
