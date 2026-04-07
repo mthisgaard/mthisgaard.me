@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     ],
     langDir: './translations',
     defaultLocale: 'en',
-    strategy: 'prefix',
+    strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/en', '/da'],
+      routes: ['/', '/da'],
     },
   },
 })
