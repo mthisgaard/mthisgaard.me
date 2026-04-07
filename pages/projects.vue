@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { projects } from '../constants'
+const { t } = useI18n()
 useHead({
-  title: 'Projects | Malene Thisgaard',
+  title: () => `${t('projectsPage.title')} | Malene Thisgaard`,
 })
 </script>
 
