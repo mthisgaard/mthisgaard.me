@@ -21,15 +21,15 @@ export default defineNuxtConfig({
       {
         code: 'en',
         name: 'English',
-        file: 'en.yml',
+        file: 'en.json',
       },
       {
         code: 'da',
         name: 'Dansk',
-        file: 'da.yml',
+        file: 'da.json',
       },
     ],
-    langDir: './i18n/translations',
+    langDir: './translations',
     defaultLocale: 'en',
     strategy: 'prefix',
     detectBrowserLanguage: {

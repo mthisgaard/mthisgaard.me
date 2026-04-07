@@ -1,0 +1,120 @@
+{
+  "head": {
+    "title": "Portefølje - Malene Thisgaard",
+    "description": "Portefølje hjemmeside for Malene Thisgaard, Full Stack Udivkler"
+  },
+  "header": {
+    "pages": {
+      "skills": "Kompetencer",
+      "projects": "Projekter"
+    }
+  },
+  "hero": {
+    "title": "Full Stack Udvikler"
+  },
+  "about": {
+    "title": "Hej, mit navn er Malene, tidligere psykolog, nu full-stack udvikler med 4 års erfaring med at bygge ting end-to-end.",
+    "section1": "Min baggrund i psykologi præger måden, jeg tænker produkter på. God software handler lige så meget om menneskene, der bruger det, som om koden bagved. Jeg arbejder på tværs af hele stacken i TypeScript, Vue 3 og Node, fra UI-design og i18n til backend-logik og web scraping-infrastruktur. Og jeg nyder virkelig at eje det hele!",
+    "section2": "Det jeg er bedst til, er at løse komplekse problemer. Giv mig et mål, og jeg tager den derfra. Jeg planlægger, designer og implementerer selvstændigt, stiller de rigtige spørgsmål og shipper ikke kode, jeg ikke forstår.",
+    "connectBtn": "Skriv til mig!"
+  },
+  "skillsPage": {
+    "title": "Kompetencer",
+    "subtitle": ""
+  },
+  "projectsPage": {
+    "title": "Projekter",
+    "subtitle": "",
+    "role": "Rolle"
+  },
+  "skillCategories": {
+    "frontend": {
+      "title": "Frontend",
+      "skills": {
+        "1": "HTML",
+        "2": "CSS/SCSS/Stylus",
+        "3": "TypeScript",
+        "4": "Vue 3 & Composition API",
+        "5": "Pug templating",
+        "6": "Nuxt",
+        "7": "Internationalisering (nuxtjs/i18n, i18next)",
+        "8": "Tailwind"
+      }
+    },
+    "backend": {
+      "title": "Backend",
+      "skills": {
+        "1": "Node",
+        "2": "PostgreSQL",
+        "3": "GraphQL",
+        "4": "MongoDB",
+        "5": "Hasura",
+        "6": "Express",
+        "7": "Sanity"
+      }
+    },
+    "automation": {
+      "title": "Automatisering",
+      "skills": {
+        "1": "Puppeteer",
+        "2": "Playwright",
+        "3": "Robot Framework"
+      }
+    },
+    "devops": {
+      "title": "DevOps",
+      "skills": {
+        "1": "Git",
+        "2": "GitHub",
+        "3": "Cloudflare",
+        "4": "GCP"
+      }
+    },
+    "testing": {
+      "title": "Test",
+      "skills": {
+        "1": "Cypress",
+        "2": "Jest"
+      }
+    },
+    "other": {
+      "title": "Andre",
+      "skills": {
+        "1": "Analytics (Mixpanel & Looker Studio)",
+        "2": "Mailing (Postmark, Brevo)",
+        "3": "Proxies & IP Rotation (Oxylabs)",
+        "4": "Slack, Linear"
+      }
+    }
+  },
+  "projects": {
+    "1": {
+      "name": "Implementerede 7 Nye Loyalitetsprogrammer",
+      "description": "Udvidede AwardFares' dækning af loyalitetsprogrammer ved at integrere 7 nye programmer, hvor hvert program krævede custom dataindsamling og parsing af komplekse, udbyderspecifikke datastrukturer."
+    },
+    "2": {
+      "name": "Full-Stack i18n Integration",
+      "description": "Implementerede en samlet i18n-løsning, der muliggør lokalisering for både client-rendered Vue og server-rendered pug templates, for en gnidningsfri, flersproget brugeroplevelse."
+    },
+    "3": {
+      "name": "Opdaterede Alert-Emails",
+      "description": "Gav AwardFares' alert-emailskabeloner et tiltrængt løft og omstrukturerede backend-logikken for alert matching, så resultater grupperes mere intuitivt i tråd med ændringer i det bredere alert-system."
+    },
+    "4": {
+      "name": "Validering af Auth-Formularer",
+      "description": "Implementerede custom inputvalidering på autentificeringssider med fokus på UX-sensitiv feedbacktiming og klare, letforståelige fejltilstande."
+    },
+    "5": {
+      "name": "Skræddersyet Shepherd.js Tutorial System",
+      "description": "Byggede en helt custom tour-løsning til Vue ved hjælp af Shepherd.js, herunder centraliseret styring, i18n-baseret indhold, bruger tracking og flere aktiveringsmetoder, for en fleksibel og brugervenlig onboarding oplevelse."
+    },
+    "6": {
+      "name": "CMS Migration & Friske Marketing Views",
+      "description": "Migrerede marketingindhold til et nyt CMS og byggede friske views og komponenter til at fremvise indholdet, så kunder verden over kan få indsigt i japanske produkter og butikker."
+    },
+    "7": {
+      "name": "Automatisering af Indkøb",
+      "description": "Stod i spidsen for integration af Robotic Process Automations (RPAs) af indkøb, integreret med Japan Rabbit-appen via custom API-endpoints, resulterende i en automatisering af 20% af indkøb."
+    }
+  }
+}

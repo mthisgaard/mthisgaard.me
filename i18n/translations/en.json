@@ -1,0 +1,122 @@
+{
+  "head": {
+    "title": "Portfolio - Malene Thisgaard",
+    "description": "Portfolio site for Malene Thisgaard, Full Stack Developer"
+  },
+  "header": {
+    "pages": {
+      "skills": "Skills",
+      "projects": "Projects"
+    },
+    "resume": "Resume"
+  },
+  "hero": {
+    "title": "Full Stack Developer"
+  },
+  "about": {
+    "title": "Hi, I'm Malene, a psychologist turned full stack developer with 4 years of experience building things end to end.",
+    "section1": "My background in psychology shapes how I think about products. Good software is as much about the people using it as the code behind it. I work across the full stack in TypeScript, Vue 3, and Node, from UI design and i18n to backend logic and web scraping infrastructure, and I genuinely enjoy owning the whole thing!",
+    "section2": "Where I shine is solving complex problems. Give me an objective and I'll run with it. I plan, design, and implement independently, ask the right questions, and don't ship code I don't understand.",
+    "connectBtn": "Let's Connect!"
+  },
+  "skillsPage": {
+    "title": "Skills",
+    "subtitle": ""
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "subtitle": "",
+    "role": "Role",
+    "presentation": "Project Pitch"
+  },
+  "skillCategories": {
+    "frontend": {
+      "title": "Frontend",
+      "skills": {
+        "1": "HTML",
+        "2": "CSS/SCSS/Stylus",
+        "3": "TypeScript",
+        "4": "Vue 3 & Composition API",
+        "5": "Pug templating",
+        "6": "Nuxt",
+        "7": "Internationalization (nuxtjs/i18n, i18next)",
+        "8": "Tailwind"
+      }
+    },
+    "backend": {
+      "title": "Backend",
+      "skills": {
+        "1": "Node",
+        "2": "PostgreSQL",
+        "3": "GraphQL",
+        "4": "MongoDB",
+        "5": "Hasura",
+        "6": "Express",
+        "7": "Sanity"
+      }
+    },
+    "automation": {
+      "title": "Automation",
+      "skills": {
+        "1": "Puppeteer",
+        "2": "Playwright",
+        "3": "Robot Framework"
+      }
+    },
+    "devops": {
+      "title": "DevOps",
+      "skills": {
+        "1": "Git",
+        "2": "GitHub",
+        "3": "Cloudflare",
+        "4": "GCP"
+      }
+    },
+    "testing": {
+      "title": "Testing",
+      "skills": {
+        "1": "Cypress",
+        "2": "Jest"
+      }
+    },
+    "other": {
+      "title": "Other",
+      "skills": {
+        "1": "Analytics (Mixpanel & Looker Studio)",
+        "2": "Mailing (Postmark, Brevo)",
+        "3": "Proxies & IP Rotation (Oxylabs)",
+        "4": "Slack, Linear"
+      }
+    }
+  },
+  "projects": {
+    "1": {
+      "name": "Implemented 7 New Loyalty Programs",
+      "description": "Expanded AwardFares' loyalty program coverage by integrating 7 new programs, each requiring custom data collection and parsing of complex, provider-specific data structures."
+    },
+    "2": {
+      "name": "Full-Stack i18n Integration",
+      "description": "Implemented a unified i18n solution that powers localization for both client-rendered Vue and server-rendered pug templates, delivering a seamless multi-language experience for users."
+    },
+    "3": {
+      "name": "Updated Alert Emails",
+      "description": "Gave the AwardFares alert email templates a much-needed facelift and reworked the backend fare matching logic to group results more intuitively, aligning it with changes to the broader alert system."
+    },
+    "4": {
+      "name": "Auth Form Validation",
+      "description": "Implemented custom input validation for authentication pages, balancing UX-sensitive feedback timing with clear, accessible error states."
+    },
+    "5": {
+      "name": "Custom Shepherd.js Tutorial System",
+      "description": "Built a custom tour solution for Vue using Shepherd.js, including centralized tour management, i18n-driven content and user progress tracking, providing a flexible and enjoyable onboarding experience."
+    },
+    "6": {
+      "name": "CMS Migration & Fresh Marketing Views",
+      "description": "Transitioned marketing content to a new CMS and crafted fresh views and components to showcase the content, empowering customers with insights on Japanese products and stores."
+    },
+    "7": {
+      "name": "Purchasing Automation",
+      "description": "Spearheaded the integration of Robotic Process Automations (RPAs) for purchasing, integrating them with the Japan Rabbit app via custom API endpoints, automating 20% of purchasing."
+    }
+  }
+}
