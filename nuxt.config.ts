@@ -45,7 +45,8 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/skills', '/projects'],
+      crawlLinks: true,
+      routes: ['/', '/en', '/da'],
     },
   },
 })
