@@ -23,7 +23,7 @@ const toggleTheme = () => {
 }
 </script>
 <template>
-  <header class="flex flex-row justify-between gap-4 my-8 md:my-16">
+  <header class="flex flex-row justify-between gap-4 my-8 md:my-10">
     <NuxtLink class="text-2xl font-bold hoverLift" :to="localePath('index')">
       MT
     </NuxtLink>
@@ -64,12 +64,14 @@ const toggleTheme = () => {
           class="opacity-80 hover:opacity-100 hoverLift"
           @click="toggleTheme"
         >
-          <PhosphorIconMoon
+          <PhosphorIcon
             v-show="colorMode.preference === 'light'"
+            name="moon"
             :size="28"
           />
-          <PhosphorIconSun
+          <PhosphorIcon
             v-show="colorMode.preference === 'dark'"
+            name="sun"
             :size="28"
           />
         </div>

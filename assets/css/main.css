@@ -19,10 +19,6 @@
     @apply flex flex-col-reverse gap-8 py-10 md:gap-16 md:flex-row;
   }
 
-  .sectionReverse {
-    @apply flex flex-col-reverse gap-8 py-10 md:gap-16 md:text-right md:flex-row-reverse;
-  }
-
   .hoverLift {
     @apply duration-500 transform hover:-translate-y-1;
   }

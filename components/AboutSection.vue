@@ -1,7 +1,7 @@
 <template>
   <div class="mb-12">
-    <div class="max-w-[640px] mb-16">
-      <h3 class="mb-4 text-3xl font-semibold md:text-4xl">
+    <div class="max-w-[840px] mb-12">
+      <h3 class="mb-4 text-2xl font-semibold md:text-3xl">
         {{ $t('about.title') }}
       </h3>
       <div>

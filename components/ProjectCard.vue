@@ -9,17 +9,13 @@ const props = defineProps({
 </script>
 
 <template>
-  <div :class="`${project.id % 2 === 0 ? 'sectionReverse' : 'section'}`">
+  <div class="section">
     <a :href="project.url" target="_blank">
-      <div class="flex relative bg-gray-100 rounded-lg">
+      <div class="relative flex bg-gray-100 rounded-lg">
         <img
           v-if="project.image"
           :src="project.image"
-          :class="`${
-            project.id === 2
-              ? 'object-scale-down bg-gray-100'
-              : 'object-cover object-left-top'
-          } aspect-square w-full md:w-[250px] md:h-[250px] rounded-lg shadow-xl`"
+          class="object-cover object-left-top aspect-square w-full md:w-[200px] md:h-[200px] rounded-lg shadow-xl"
         />
       </div>
     </a>
@@ -33,21 +29,16 @@ const props = defineProps({
           <span class="font-bold">Tech: </span> {{ project.tech }}
         </p>
       </div>
-      <div
-        :class="`flex gap-3 text-sm font-semibold ${
-          project.id % 2 === 0 ? 'md:justify-end' : ''
-        }`"
-      >
+      <div class="flex gap-3 text-sm font-semibold">
         <a
           v-if="project.url"
           :href="project.url"
           target="_blank"
           class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
-          <span class="mr-2">{{
-            project.id === 7 ? $t(`projectsPage.presentation`) : 'Website'
-          }}</span>
-          <PhosphorIconArrowSquareOut
+          <span class="mr-2">Website</span>
+          <PhosphorIcon
+            name="arrow-square-out"
             :size="16"
             weight="bold"
             class="self-center"
@@ -60,7 +51,7 @@ const props = defineProps({
           class="flex px-4 py-2 text-gray-100 bg-gray-800 rounded-lg opacity-80 hover:opacity-100 hoverLift"
         >
           <span class="mr-2">GitHub</span>
-          <PhosphorIconGithubLogo :size="16" class="self-center" />
+          <PhosphorIcon name="github-logo" :size="16" class="self-center" />
         </a>
       </div>
     </div>
